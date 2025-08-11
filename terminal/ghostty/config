@@ -1,0 +1,87 @@
+# Ghostty Performance & Visual Configuration
+# Optimized for visual distinction between active/inactive terminals
+
+# THEME SELECTION
+theme = tokyonight-storm
+
+# ACTIVE TERMINAL VISUAL INDICATORS
+# Inactive terminal dimming
+unfocused-split-opacity = 0.70
+background-opacity = 0.93
+background-blur-radius = 25
+
+# Cursor for active terminal
+cursor-style = block
+cursor-style-blink = true
+cursor-opacity = 1.0
+cursor-invert-fg-bg = true
+
+# PERFORMANCE OPTIMIZATIONS
+gtk-single-instance = desktop
+mouse-hide-while-typing = true
+focus-follows-mouse = true
+copy-on-select = clipboard
+
+# FONT CONFIGURATION
+font-family = JetBrainsMono Nerd Font
+font-size = 12
+font-thicken = true
+bold-is-bright = true
+font-variation = wght=400
+font-variation-bold = wght=700
+
+# WINDOW STYLING
+window-padding-x = 12
+window-padding-y = 12
+window-padding-balance = true
+window-decoration = true
+window-theme = auto
+window-save-state = always
+gtk-titlebar = false
+confirm-close-surface = false
+
+# KEYBINDINGS
+keybind = source:/home/coldaine/.config/ghostty/keybinds
+
+# VISUAL EFFECTS
+selection-invert-fg-bg = true
+
+# ANIMATIONS & EYE CANDY
+# Cursor animations
+cursor-style = block
+cursor-style-blink = true
+cursor-opacity = 1.0
+cursor-invert-fg-bg = true
+
+# Smooth scrolling
+scroll-multiplier = 3
+
+# Window animations (GTK)
+gtk-adwaita = true
+
+# Terminal visual effects
+background-opacity = 0.90
+background-blur-radius = 30
+unfocused-split-opacity = 0.65
+
+# Bold text rendering
+bold-is-bright = true
+font-thicken = true
+
+# SHELL INTEGRATION
+shell-integration = detect
+shell-integration-features = cursor,sudo,title,marks
+
+# TAB COMPLETION & SHELL ENHANCEMENTS
+# Enable OSC 8 for clickable links
+open-link-on-click = true
+
+# Better clipboard handling
+clipboard-read = allow
+clipboard-write = allow
+clipboard-paste-protection = true
+clipboard-trim-trailing-spaces = true
+
+# Additional performance settings
+auto-update = off
+window-vsync = true

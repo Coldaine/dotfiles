@@ -1,0 +1,29 @@
+{
+    "github.copilot.nextEditSuggestions.enabled": true,
+
+
+
+    
+    "geminicodeassist.project": "daring-earth-kmdrn",
+    "geminicodeassist.updateChannel": "Insiders",
+    "geminicodeassist.agentYoloMode": false,
+    "geminicodeassist.chat.automaticScrolling": "true",
+    "explorer.confirmDelete": false,
+    "kilo-code.allowedCommands": [
+        "npm test",
+        "npm install",
+        "tsc",
+        "git log",
+        "git diff",
+        "git show",
+        "*"
+    ],
+    "kilo-code.deniedCommands": [],
+    "git.enableSmartCommit": true,
+    "git.autofetch": true,
+    "git.confirmSync": false
+
+
+
+
+}
