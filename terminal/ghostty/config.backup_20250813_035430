@@ -1,30 +1,26 @@
 # Ghostty Performance & Visual Configuration
-# Optimized for animated gradient shader with transparency
+# Optimized for visual distinction between active/inactive terminals
 
 # THEME SELECTION
-theme = dark:catppuccin-mocha,light:catppuccin-latte
-
-# GALAXY SHADER
-custom-shader = /home/coldaine/.config/ghostty/shaders/galaxy.glsl
+theme = tokyonight-storm
 
 # ACTIVE TERMINAL VISUAL INDICATORS
-# Background transparency and blur
+# Inactive terminal dimming
 unfocused-split-opacity = 0.70
-background-opacity = 0.75
-background-blur-radius = 10
+background-opacity = 0.93
+background-blur-radius = 25
 
 # Cursor for active terminal
 cursor-style = block
 cursor-style-blink = true
 cursor-opacity = 1.0
 cursor-invert-fg-bg = true
-cursor-color = #f2d5cf
 
 # PERFORMANCE OPTIMIZATIONS
 gtk-single-instance = desktop
 mouse-hide-while-typing = true
 focus-follows-mouse = true
-copy-on-select = false
+copy-on-select = clipboard
 
 # FONT CONFIGURATION
 font-family = JetBrainsMono Nerd Font
@@ -49,8 +45,6 @@ config-file = /home/coldaine/.config/ghostty/keybinds
 
 # VISUAL EFFECTS
 selection-invert-fg-bg = true
-selection-background = #626880
-selection-foreground = #c6d0f5
 
 # SHELL INTEGRATION
 shell-integration = detect

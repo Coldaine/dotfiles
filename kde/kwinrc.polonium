@@ -1,0 +1,28 @@
+[Script-polonium]
+# Mouse-focused configuration
+Borders=2
+Engine=BTree
+FilterProcess=
+FilterCaption=^(Plank|yakuake|krunner)$
+FilterMinimized=false
+FilterPopups=true
+InsertionPoint=Right
+KeepTiledBelow=false
+Layout=Columns
+MaximizeSingle=false
+MinimizeRest=false
+ResizeAmount=0.05
+RotateLayout=false
+TilePopups=false
+
+# Allow windows to be moved with mouse
+AllowMouseDrag=true
+# Allow resizing with mouse
+AllowMouseResize=true
+# Float by default for certain windows
+FloatUtilities=true
+FloatDialogs=true
+
+# Window gaps for better visual separation
+InnerGaps=5
+OuterGaps=5
